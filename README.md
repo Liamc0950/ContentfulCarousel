@@ -1,3 +1,10 @@
+# Contentful Carousel
+
+A basic full-page image carousel built for use with Contenful/React/Gatsby.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

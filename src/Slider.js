@@ -5,7 +5,7 @@ import i1 from "./img/cabaret_1.jpg";
 import i2 from "./img/Mei_Lin_Barral_Photography_Boston_Opera_del_West_Cendrillon_216.jpg";
 import i3 from "./img/OCG__1.jpg";
 
-function Slider(){
+function Slider(props){
 
     let chevStyles = {
         fontSize: 1.8 + "vw",
@@ -15,9 +15,9 @@ function Slider(){
 
 
     //Array of components
-    let sliderArr = [<ImageSlide src={i1} ></ImageSlide>, 
-                     <ImageSlide src={i2} ></ImageSlide>, 
-                     <ImageSlide src={i3} ></ImageSlide>];
+    let sliderArr = [<ImageSlide src={i1} title="Cabaret" position="Lighting Design"></ImageSlide>, 
+                     <ImageSlide src={i2} title="Cabaret" position="Lighting Design"></ImageSlide>, 
+                     <ImageSlide src={i3} title="Cabaret" position="Lighting Design"></ImageSlide>];
 
     const [x, setX] = useState(0);
     const goLeft = () =>{
